@@ -1,0 +1,58 @@
+body {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    margin-top: 150px;
+
+}
+
+img {
+    width: 70%;
+    height: auto;
+}
+
+article p {
+    width: 400px;
+
+}
+
+section {
+    margin-top: 30px;
+}
+
+.title {
+    font-size: 24px;
+    font-family: "Krona One", sans-serif;
+    font-style: normal;
+}
+
+.title span {
+    color: #22D4FD;
+}
+
+.content p {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+button {
+    font-family: "Montserrat", sans-serif;
+    padding: 15px;
+    width: 180px;
+    border-radius: 10px;
+    background-color: #22D4FD;
+
+
+}
+
+aside button:nth-child(2) {
+    margin-left: 30px;
+}
